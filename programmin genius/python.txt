@@ -1,0 +1,63 @@
+PYTHON 
+
+-------------------------output------------------------------------
+
+print("hello world")
+
+
+
+-------------------------variables----------------------------------
+
+python has no command for declaring variables
+variables are case sensitive 
+strings can be declare with '' or "" 
+ex
+
+carro = "lambo"
+numero = 4
+verdad = False 
+
+
+-------------------------data types---------------------------------
+
+1- numeric = int, float, complex
+2- bolean
+3- sequence = string, list , tuple , set
+4- dictionary 
+
+------------------------input--------------------------------------
+
+print('tell me ur name and age')
+firstName = input()
+
+age = input()
+
+
+print('hello ur name is ' + firstName + ' and ur age is ' + age);
+
+
+--------------------------if elif else ----------------------------
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+
+
+--------------------------functions ------------------------------
+
+def tri_recursion(k):
+  if(k > 0):
+    result = k + tri_recursion(k - 1)
+    print(result)
+  else:
+    result = 0
+  return result
+
+print("\n\nRecursion Example Results")
+tri_recursion(6)
+

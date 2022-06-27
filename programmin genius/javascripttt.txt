@@ -1,0 +1,75 @@
+JAVASCRIPT 
+
+*******************************output*****************************
+
+<script>
+console.log("hello world")
+
+window.alert(5+6) //displays pop up in browser with result
+</script>
+
+
+
+*****************************variables*******************************
+
+let hola = "hola"
+const chao = 4
+
+one statement, maney variables 
+ex: 
+
+let person = "jhon", carName="volvo" , price = 200;
+
+or 
+
+let person = "jhon",
+    carName = "volvo,
+    price = 200; 
+
+-----------------------data types-----------------------------------
+
+primitive:
+
+1- integer
+
+2- string
+
+3- boolean
+
+4- undefined , null 
+
+non-primitive
+
+1- arrays
+
+2- objects
+
+3- functions
+
+-------------------------input---------------------------------------
+prompt()
+
+
+var num1 = prompt('enter first number')
+var num2 = prompt('enter second number')
+
+
+
+console.log(num1 + num2)
+-------------------------if  else if   else ---------------------------------------
+
+
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+
+
+-------------------------------functions------------------------------------
+
+function myFunction(p1, p2) {
+  return p1 * p2;  
+}

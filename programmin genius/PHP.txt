@@ -1,0 +1,81 @@
+PHP 
+
+---------------------------output------------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo "I hello world";
+print " hello world" ;
+
+?>
+
+</body>
+</html>
+
+-------------------------------variables-----------------------------
+variables are case sensitive
+in php variables start with $ 
+ex
+
+$hola = "hola";
+$x = 6;
+$car = "ferrari";
+
+echo "i love my" .$car. "!";      or       echo "i love my $car"; 
+
+
+-----------------------------data types-----------------------------
+
+scalar: 1-boolean ,  2- integer  ,  3- float  , 4- string 
+
+compound:   1- array,  2- object 
+
+special:  1- null   ,   2- resource 
+
+-----------------------------input----------------------------------
+
+<!DOCTYPE html>
+<html>
+<body>
+<form action="input.php" method="post">
+      <input type="text" name="value1" />
+      <input type="text" name="value2" />
+</form>
+
+<?php
+
+echo ($value1 + $value2);
+
+
+?>
+
+</body>
+</html>
+
+--------------------------if elseif else-----------------------------
+
+<?php
+$t = date("H");
+
+if ($t < "10") {
+  echo "Have a good morning!";
+} elseif ($t < "20") {
+  echo "Have a good day!";
+} else {
+  echo "Have a good night!";
+}
+?>-
+
+----------------------------functions --------------------------------
+
+<?php declare(strict_types=1);
+
+function addNumbers(int $a, int $b) {
+  return $a + $b;
+}
+echo addNumbers(5, "5 days");
+
+?>
+

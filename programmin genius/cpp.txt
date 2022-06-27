@@ -1,0 +1,39 @@
+C++
+statements end with ;
+-----------------------------output---------------------------------
+
+#include <iostream>
+//using namespace std;
+
+
+
+int main()
+{  
+    std ::cout << "hello world";
+  
+    system("pause>0");
+}
+
+
+-----------------------------variables-----------------------------
+
+we use identifies to declare variables
+
+int number = 10;
+double numb2 = 19.99;
+char hola = 'a'; -----------single quotes
+string palabra = "casa";----------double quotes
+bool verdad = true, false;
+float tamal = 3.14;
+
+
+CONSTANTS 
+variables that cant be change
+add the const before identifier
+
+const int number = 15;
+const string palabra = "my casa";
+
+
+
+----------------------------data types------------------------------
